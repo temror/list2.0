@@ -1,0 +1,14 @@
+.usersPagination {
+padding-top: 10px;
+  span {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .selectedPage {
+    color: red;
+  }
+}
+.hiddenClass {
+  display: none;
+}

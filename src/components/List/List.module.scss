@@ -1,0 +1,17 @@
+.list{
+  table {
+    tr{
+      cursor: pointer;
+    }
+    .activeClass{
+      font-weight: bold;
+    }
+    td {
+      border: black solid 1px;
+      padding: 10px;
+    }
+  }
+}
+.hiddenClass{
+  display: none;
+}

@@ -1,0 +1,11 @@
+<script>
+    let arr = ['we','are','bitches']
+    let textType = 'we'
+    let text = 'hui'
+    let newArr = arr.reduce((a,b)=>(a[b]='',a),{})
+    for (let key in newArr) {
+        if(key === textType){
+            newArr[key] = text}
+    }
+    console.log(newArr)
+</script>

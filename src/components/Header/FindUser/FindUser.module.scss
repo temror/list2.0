@@ -1,0 +1,35 @@
+.findUser {
+  display: grid;
+  min-width: 600px;
+  width: 40%;
+  height: 30px;
+  grid-template-columns: 10fr 1fr 2fr 6fr;
+  grid-gap: 10px;
+  padding-bottom: 10px;
+
+  input {
+    width: 111%;
+  }
+
+  p {
+    margin: 0;
+    padding: 7px 0 7px 0;
+    font-size: 12px;
+    color: red;
+  }
+
+  .turnBackButton {
+    background-color: inherit;
+    border: 0;
+    z-index: 9998;
+    color: slategray;
+
+    &:hover {
+      color: black;
+    }
+
+    &:active {
+      font-weight: bold;
+    }
+  }
+}

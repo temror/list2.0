@@ -1,0 +1,43 @@
+.addUser{
+  padding-top: 5%;
+  .addButton{
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+  }
+    .hiddenForm{
+      display: grid;
+      z-index: 999999;
+      background-color: white;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      width: 50%;
+      position: fixed;
+      left: 25%;
+      top:10%;
+      border: solid 1px black;
+      border-radius: 10px;
+      padding: 10px;
+      input, button{
+        height: 40px;
+      }
+      .errMess{
+        color: red;
+        font-size: 10px;
+        padding: 0 0 0 2px;
+        margin: 0px;
+      }
+      .close{
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        &:hover{
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+.hiddenClass{
+  display: none;
+}
