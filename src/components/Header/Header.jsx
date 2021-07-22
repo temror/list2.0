@@ -1,7 +1,7 @@
 import React from "react";
 import c from './Header.module.scss'
 import ChooseSetContainer from "./ChooseSet/ChooseSetContainer";
-import AddUserContainer from "./AddUser/AddUserContainer";
+import AddUser from "./AddUser/AddUser";
 import FindUserContainer from "./FindUser/FindUserContainer";
 import {connect} from "react-redux";
 import {getUsers} from "../../redux/redusers/list-reduser";
@@ -41,7 +41,7 @@ class Header extends React.Component {
                        onChange={(e)=>this.newTitle(e)}
                 />
                 <ChooseSetContainer/>
-                <AddUserContainer/>
+                <AddUser/>
                 <FindUserContainer/>
             </div>)
 
